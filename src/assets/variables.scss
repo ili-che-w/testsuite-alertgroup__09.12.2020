@@ -1,0 +1,25 @@
+/* Colors */
+
+$black: #2C323A;
+$dark: #173456;
+$white: #FFFFFF;
+$gray-30: #7C8A9D;
+$gray-50: #C5CBD3;
+$gray-60: #E2E5E9;
+$gray-100: #F6F7F8;
+
+$accent: #184F90;
+$purple-40: #7650A6;
+$green-50: #44A86E;
+
+/* Screen params */
+
+$mobile-md: 375px;
+
+/* Mixins */
+
+@mixin flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

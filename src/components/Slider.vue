@@ -13,14 +13,16 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
+  @import '@/assets/variables.scss';
+
   .slider__switch {
     display: flex;
     justify-content: space-around;
   }
   .slider-switch__item {
     display: inline-block;
-    background-color: blue;
+    background-color: $accent;
     height: 4px;
     width: 4px;
     border-radius: 2px;

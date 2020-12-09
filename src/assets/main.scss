@@ -1,0 +1,25 @@
+@import '@/assets/variables.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button[class] {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    & > img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+}

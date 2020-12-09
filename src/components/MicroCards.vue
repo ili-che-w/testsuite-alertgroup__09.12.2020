@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
   .micro-cards__row {
     display: flex;
   }
